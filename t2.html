@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			body{
+				transition: all 0.3s linear;
+				}
+		</style>
+	</head>
+	<body>
+		<button onclick="onoff(this)">关灯</button>
+	</body>
+	<script type="text/javascript">
+			function onoff(btn){
+				if(btn.innerHTML == "关灯"){
+					document.body.style.backgroundColor="black";
+					btn.innerHTML = "开灯";
+				}
+				else{
+					document.body.style.backgroundColor="white";
+					btn.innerHTML = "关灯";
+				}
+			}
+		</script>
+</html>

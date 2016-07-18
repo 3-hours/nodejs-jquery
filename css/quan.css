@@ -1,0 +1,21 @@
+.contrain{
+	width:700px;
+	margin:auto;
+}
+.contrain .left{
+	width:140px;
+	float:left;
+}
+.contrain .right{
+	width:140px;
+	float:right;
+}
+.contrain img{
+	transition: all 0.5s linear;
+}
+.info{
+	clear:both;
+	width:700px;
+	margin:auto;
+	overflow-y: scroll;
+}
